@@ -1,10 +1,15 @@
 import requests
+import os
+import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # =========================================================
 # OPENROUTER API KEY
 # =========================================================
 
-API_KEY = "OPENROUTER_API_KEY"
+API_KEY = st.secrets.get("OPENROUTER_API_KEY")
 
 
 # =========================================================
