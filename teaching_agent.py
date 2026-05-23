@@ -5,7 +5,7 @@ import requests
 # OPENROUTER API KEY
 # =========================================================
 
-API_KEY = "YOUR_KEY"
+API_KEY = "OPENROUTER_API_KEY"
 
 
 # =========================================================
