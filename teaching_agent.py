@@ -12,7 +12,7 @@ load_dotenv()
 # OPENROUTER API KEY
 # =========================================================
 
-API_KEY = st.secrets.get("OPENROUTER_API_KEY")
+API_KEY = st.secrets.get("OPENROUTER_API_KEY") or st.secrets["OPENROUTER_API_KEY"]
 
 
 # =========================================================
